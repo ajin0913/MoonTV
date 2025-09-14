@@ -11,6 +11,34 @@ export interface ChangelogEntry {
 
 export const changelog: ChangelogEntry[] = [
   {
+    version: "2.8.4",
+    date: "2025-09-14",
+    added: [
+    "添加搜索结果的排序选择"
+    ],
+    changed: [
+    "优化搜索逻辑"
+    ],
+    fixed: [
+    "修复对OrionTV的兼容",
+    "修复d1数据库继续观看无法收藏"
+    ]
+  },
+  {
+    version: "2.8.0",
+    date: "2025-09-09",
+    added: [
+    "添加cf部署",
+    "添加d1支持"
+    ],
+    changed: [
+      // 无变更内容
+    ],
+    fixed: [
+      // 无修复内容
+    ]
+  },
+  {
     version: "2.7.6",
     date: "2025-09-04",
     added: [
